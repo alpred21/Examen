@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+body{
+    margin: 0px;
+}
+header{
+   
+   
+    background-image:url(https://static.vecteezy.com/system/resources/previews/019/558/371/non_2x/beautiful-panorama-landscape-with-sea-view-europe-summer-travel-vacation-oia-santorini-greece-island-carefree-tourism-scenery-european-destination-white-architecture-on-santorini-island-greece-photo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1440px;
+    height: 601px;
+    
+}
+.menu{
+    position:sticky;
+}
+.menu_op{
+    position: sticky;
+    align-items: center;
+    margin: 0px;
+    padding: 0%;
+    border: 0%;
+    display: flex;
+    list-style: none;
+    background-color: #047a9465;
+    justify-content: left;
+}
+.menu_nombre {
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.menu_txt{
+    margin-right: 80px;
+}
+.menu_txt a{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.menu_txt a:hover{
+    border-bottom: 4px solid black;
+}
+.slogan{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color:#047a9473;
+    height: auto;
+    width: 500px;
+    text-align: center;
+    border-radius:30px;
+    padding-bottom: 20px;
+}
+.slogan_tt{
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 100px;
+    margin: 0px;
+    color: #fff;
+}
+.slogan_subt{
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 30px;
+    align-items: center;
+    margin: 0%;
+    color: #fff;
+
+}
+
+.msg{
+    margin-left: 20px;
+    margin-top: 100px;
+    text-align:justify;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+.artc_op{
+    list-style: none;
+}
